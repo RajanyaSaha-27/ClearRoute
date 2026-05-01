@@ -309,12 +309,14 @@ ClearRoute is not just a hackathon project. It is the foundation architecture fo
 
 ```
 clearroute/
-├── index.html          # Main dashboard UI
-├── style.css           # Tactical dark theme
-├── script.js           # Frontend logic + OSRM + map
-├── app.py              # Flask backend + AI agent pipeline
-├── assets/
-│   └── architecture.png
+├──templates
+│  ├── index.html          # Main dashboard UI
+│  ├── login.html          # Login page UI
+│  ├── signup.html         # Signup page UI
+├──static
+│  ├── style.css           # Tactical dark theme
+│  ├── script.js           # Frontend logic + OSRM + map
+├── app.py                 # Flask backend + AI agent pipeline
 └── README.md
 ```
 
@@ -324,7 +326,6 @@ clearroute/
 
 **Rajanya Saha**<br>
 **Biraj Acherjee**<br>
-Built for HackArena 2025 — Kolkata Zonal Round
 
 ---
 
