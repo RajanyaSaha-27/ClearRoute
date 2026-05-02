@@ -45,38 +45,38 @@ ClearRoute is built around **4 autonomous AI agents** and **2 generative AI modu
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                     AI AGENT PIPELINE                                       │
-│                                                                             │
-│  📥 Input                                                                   │
-│  (Location + Condition + Prescription)                                      │
-│           │                                                                 │
-│           ▼                                                                 │
-│  ┌─────────────────┐                                                     │
-│  │  Agent 1           │  Severity Detection Agent                           │
-│  │  🔍 Classify       │  Keyword NLP → CRITICAL / MODERATE / LOW           │
-│  └────────┬────────┘                                                     │
-│            ▼                                                                │
-│  ┌─────────────────┐                                                     │
-│  │  Agent 2           │  Hospital Selection Agent                           │
-│  │  🏥 Match          │  Condition type + ICU availability check            │
-│  └────────┬────────┘  Auto-switch if ICU beds = 0                        │
-│            ▼                                                                │
-│  ┌─────────────────┐                                                     │
-│  │  Agent 3           │  Traffic Clearance Agent                            │
-│  │  🚦 Route          │  OSRM smart routing + priority corridor             │
-│  └────────┬────────┘                                                     │
-│            ▼                                                                │
-│  ┌─────────────────┐                                                     │
-│  │  Agent 4           │  ER Readiness Agent                                 │
-│  │  📡 Alert          │  Pre-alert dispatch + bed coordination              │
-│  └────────┬────────┘                                                     │
-│            ▼                                                                │
-│  ┌──────────────────────────────────────┐                            │
-│  │  Generative AI Modules                      │                            │
-│  │  ✨ Prescription Summary Generator          │  Claude AI / Fallback      │
-│  │  📣 Alert Message Generator                 │  Dynamic text gen          │
-│  └──────────────────────────────────────┘                            │
-└─────────────────────────────────────────────────────────────────┘
+│                     AI AGENT PIPELINE                           │
+│                                                                 │
+│  📥 Input                                                       │
+│  (Location + Condition + Prescription)                          │
+│           │                                                     │
+│           ▼                                                     │
+│  ┌─────────────────┐                                            │
+│  │  Agent 1        │  Severity Detection Agent                  │
+│  │  🔍 Classify    │  Keyword NLP → CRITICAL / MODERATE / LOW   │
+│  └────────┬────────┘                                            │
+│            ▼                                                    │
+│  ┌─────────────────┐                                            │
+│  │  Agent 2        │  Hospital Selection Agent                  │
+│  │  🏥 Match       │  Condition type + ICU availability check   │
+│  └────────┬────────┘  Auto-switch if ICU beds = 0               │
+│            ▼                                                    │
+│  ┌─────────────────┐                                            │
+│  │  Agent 3        │  Traffic Clearance Agent                   │
+│  │  🚦 Route       │  OSRM smart routing + priority corridor    │
+│  └────────┬────────┘                                             │
+│            ▼                                                     │
+│  ┌─────────────────┐                                             │
+│  │  Agent 4        │  ER Readiness Agent                         │
+│  │  📡 Alert       │  Pre-alert dispatch + bed coordination      │
+│  └────────┬────────┘                                              │
+│            ▼                                                      │
+│  ┌──────────────────────────────────────┐                         │
+│  │  Generative AI Modules               │                         │
+│  │  ✨ Prescription Summary Generator   │  Claude AI / Fallback   │
+│  │  📣 Alert Message Generator          │  Dynamic text gen       │
+│  └──────────────────────────────────────┘                          │
+└────────────────────────────────────────────────────────────────────┘
 ```
 
 
@@ -129,13 +129,13 @@ User Reports Emergency
    🚦 Agent 3: Route Optimization
    (OSRM real road routing → distance_km + eta_min)
         │
-        ├─────────────────────────────────┐
+        ├──────────────────────────────────────┐
         ▼                                      ▼
    🗺️ Leaflet Map                     📡 Agent 4: ER Readiness
    (Route drawn, ambulance tracked)    (Pre-alert + AI summary sent)
         │                                      │
         └────────────┬───────────────────┘
-                       ▼
+                     ▼
               ✅ Patient Delivered
               Hospital Ready. Zero Surprises.
 ```
