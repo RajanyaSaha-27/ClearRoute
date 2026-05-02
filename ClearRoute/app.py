@@ -7,7 +7,7 @@ HOW TO RUN:
     python app.py
 
 Optional: Set Anthropic API key for real AI logic.
-    export ANTHROPIC_API_KEY=sk-ant-...         
+    export ANTHROPIC_API_KEY=...         
 """
 import sqlite3
 import os, time, math
