@@ -184,7 +184,15 @@ User Reports Emergency
 
 ---
 
-## ⚙️ Setup
+## 🌐 Live Link
+<p>
+<b>Live Demo:</b>
+<a href="https://upi-fraud-detection-q2rn.onrender.com/">here</a>
+</p>
+
+---
+
+## ⚙️ Run Locally
 
 ### Prerequisites
 - Python 3.10+
