@@ -11,7 +11,6 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Leaflet](https://img.shields.io/badge/Leaflet.js-1.9-199900?style=flat-square&logo=leaflet&logoColor=white)](https://leafletjs.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![HackArena](https://img.shields.io/badge/HackArena%202025-Kolkata%20Zonal-E8001C?style=flat-square)](/)
 
 <br/>
 
