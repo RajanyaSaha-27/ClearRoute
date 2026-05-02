@@ -187,7 +187,7 @@ User Reports Emergency
 ## 🌐 Live Link
 <p>
 <b>Live Demo:</b>
-<a href="https://upi-fraud-detection-q2rn.onrender.com/">here</a>
+<a href="https://clearroute-ai.onrender.com">here</a>
 </p>
 
 ---
@@ -202,7 +202,7 @@ User Reports Emergency
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/clearroute.git
+git clone [https://github.com/your-username/clearroute.git](https://github.com/RajanyaSaha-27/ClearRoute.git)
 cd clearroute
 ```
 
