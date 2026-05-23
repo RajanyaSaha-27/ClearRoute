@@ -81,7 +81,8 @@ ClearRoute is built around **4 autonomous AI agents** and **2 generative AI modu
 
 <br>
 
-<img width="1024" height="1536" alt="ChatGPT Image May 1, 2026, 09_12_29 PM" src="https://github.com/user-attachments/assets/3f1915d4-d094-49bf-9a81-0b37e87ab8d5" />
+<img width="1024" height="1536" alt="ChatGPT Image May 1, 2026, 09_12_29 PM" src="<img width="1024" height="1536" alt="WhatsApp Image 2026-05-23 at 12 29 55" src="https://github.com/user-attachments/assets/3e619cb1-e85c-43cb-b0a1-33b31feea7b0" />
+" />
 
 </br>
 
