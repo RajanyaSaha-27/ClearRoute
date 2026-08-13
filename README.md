@@ -333,7 +333,6 @@ clearroute/
 ## 👤 Author
 
 **Rajanya Saha**<br>
-**Biraj Acherjee**<br>
 
 ---
 
